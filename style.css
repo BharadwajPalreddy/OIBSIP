@@ -1,0 +1,119 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+section {
+    padding: 50px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: float;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+#hi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: powderblue;
+    color:black;
+}
+#about {
+    background-image: url('https://img.freepik.com/premium-photo/3d-abstract-background_493604-1338.jpg');
+}
+
+#portfolio {
+    background-image: url('https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149138432.jpg');
+}
+
+#skills {
+    background-image: url('https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg');
+}
+
+#contact {
+    background-image: url('https://media.istockphoto.com/id/1395321519/photo/digital-background-with-movement-of-glowing-particles-complex-technologies-of-big-data-3d.webp?b=1&s=170667a&w=0&k=20&c=0SWIokXTPzOv6WfRPmyBIV9-6Twxs7SfMAMZCJ6Pw-A=');
+}

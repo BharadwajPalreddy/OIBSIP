@@ -95,6 +95,16 @@ footer {
 footer p {
     margin: 0;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #hi {
     display: flex;
     justify-content: center;
